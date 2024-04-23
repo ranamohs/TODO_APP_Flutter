@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:todo_app/shared/constants/bloc_observer.dart';
 import 'package:todo_app/shared/logic/todo_cubit.dart';
 import 'package:todo_app/shared/widgets/build_task_item.dart';
 
 class NewTasks extends StatelessWidget {
+  const NewTasks({super.key});
+
 
 
   @override

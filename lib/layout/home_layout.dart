@@ -102,7 +102,7 @@ class HomeLayout extends StatelessWidget {
                                                         .format(context)
                                                         .toString();
                                                     print(
-                                                      value?.format(context),
+                                                      value.format(context),
                                                     );
                                                   },
                                                 );
